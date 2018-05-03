@@ -12,14 +12,14 @@ const Link = ({ active, children, onClick }) => {
       onClick={
         e => {
           e.preventDefault();
-          onCLick();
+          onClick();
         }
       }
     >{children}</a>
   );
 };
 
-Link.proTypes = {
+Link.propTypes = {
   active: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,
   onClick: PropTypes.func.isRequired

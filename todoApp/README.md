@@ -1,3 +1,6 @@
+这个是redux基础知识的学习记录，教程是redux的[官方教程](https://redux.js.org/basics)。
+
+
 ### **问题： **
 - 说实话啊对state是怎么传入和更新的这个过程很混乱啊。。。
 - connect（）这个函数不一般。。。

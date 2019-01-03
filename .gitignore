@@ -1,0 +1,8 @@
+# 匹配依赖项
+/**/node_modules
+
+# 匹配vscode设置
+.vscode
+
+# 匹配package包
+/**/package-lock.json
